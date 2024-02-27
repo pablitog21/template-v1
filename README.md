@@ -16,10 +16,18 @@ Antes de comenzar a utilizar esta plantilla, asegúrate de tener instalado Node.
 
 ## Cómo empezar
 
-1. Clona este repositorio: `git clone <URL_del_repositorio>`
+11. Clona este repositorio: `git clone <URL_del_repositorio>`
 2. Navega al directorio del proyecto: `cd nombre_del_proyecto`
-3. Instala las dependencias: `npm install`
-4. Inicia el servidor de desarrollo: `npm run dev`
+3. Instala las dependencias:
+   - Utilizando npm: `npm install`
+   - Utilizando yarn: `yarn install`
+   - Utilizando pnpm: `pnpm install`
+   - O utilizando cualquier otro empaquetador de tu preferencia.
+4. Inicia el servidor de desarrollo:
+   - Utilizando npm: `npm run dev`
+   - Utilizando yarn: `yarn dev`
+   - Utilizando pnpm: `pnpm dev`
+   - O utilizando cualquier otro comando específico del empaquetador que estés utilizando.
 5. Abre tu navegador y ve a `http://localhost:3000` para ver la aplicación en funcionamiento.
 
 ¡Y eso es todo! Ahora puedes comenzar a desarrollar tu aplicación utilizando esta plantilla de Next.js como base.
